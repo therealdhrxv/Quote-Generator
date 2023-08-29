@@ -27,11 +27,11 @@ export default function Home() {
           </Button>
         </div>
         <div className='ml-[10%] mt-[30%] mr-[10%]'>
-          <p> <b> Author : </b> {author} </p> <br />
-          <p> <b> Quote : </b> {quote} </p>
+          <p> <b> Author : </b> {author && author} </p> <br />
+          <p> <b> Quote : </b> {quote && quote} </p>
         </div>
-        <div className='mt-[50%] flex justify-center'>
-          Meet the developer - <a href='https://therealdhruv.tech' target='_blank' className='ml-1'> Dhruv Pankaj Patel </a>
+        <div className='mt-[40%] flex justify-center'>
+          Meet the developer - <a href='https://therealdhruv.tech' target='_blank' className='ml-1 font-mono text-blue-700'> Dhruv Pankaj Patel </a>
         </div>
       </>
   )
