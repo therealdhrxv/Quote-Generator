@@ -31,7 +31,7 @@ export default function Home() {
           <p> <b> Quote : </b> {quote && quote} </p>
         </div>
         <div className='mt-[40%] md:mt-[18%] flex justify-center'>
-          Meet the developer - <a href='https://therealdhruv.tech' target='_blank' className='ml-1 font-mono text-blue-700'> Dhruv Pankaj Patel </a>
+          Meet the developer - <a href='https://www.linkedin.com/in/therealdhrxv/' target='_blank' className='ml-1 font-mono text-blue-700'> Dhruv Pankaj Patel </a>
         </div>
       </>
   )
